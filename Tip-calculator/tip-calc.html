@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body
+    {background-color: rgb(80, 80, 80);}</style>
+<body>
+    <h1>Tip Calculator</h1>
+    <p>Basic tip calculator</p>
+    <script type="text/javascript">
+        var bill = Number(prompt("What is the total bill?"));
+        var tip = Number(prompt("Enter the tip percentage?"));
+
+        var tipAmount = bill * (tip / 100);
+        var totalBill = tipAmount + bill;
+
+alert ("The total bill with tip is:" + totalBill.toFixed(2));
+    </script>
+
+</body>
+</html>
