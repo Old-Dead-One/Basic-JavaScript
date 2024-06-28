@@ -7,5 +7,5 @@ for (let i = string.length - 1; i >= 0; i--) {
 console.log(stringReversed);
 
 // string = "Hello World!"
-// revstring = original_string[::-1]
-// print(reversed_string)
+// revstring = string[::-1]
+// print(revstring)
